@@ -1,0 +1,22 @@
+C:\Users\aadar>cd onedrive
+
+C:\Users\aadar\OneDrive>cd Documents
+
+C:\Users\aadar\OneDrive\Documents>mkdir CUSAT
+
+C:\Users\aadar\OneDrive\Documents>cd CUSAT
+
+C:\Users\aadar\OneDrive\Documents\CUSAT>python3 -m virtualenv jupyter
+created virtual environment CPython3.12.2.final.0-64 in 4667ms
+  creator Venv(dest=C:\Users\aadar\OneDrive\Documents\CUSAT\jupyter, clear=False, no_vcs_ignore=False, global=False, describe=CPython3Windows)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=C:\Users\aadar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\Local\pypa\virtualenv)
+    added seed packages: pip==24.0
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+C:\Users\aadar\OneDrive\Documents\CUSAT>cd jupyter
+
+C:\Users\aadar\OneDrive\Documents\CUSAT\jupyter>Scripts\activate
+
+(jupyter) C:\Users\aadar\OneDrive\Documents\CUSAT\jupyter>pip install jupyterlab
+
+(jupyter) C:\Users\aadar\OneDrive\Documents\CUSAT\jupyter>jupyter-lab
